@@ -4,5 +4,5 @@ A hardhat build environment using hardhat / ethers,  configured with hardhat-dep
 npm install 
 npx hardhat compile 
 npx hardhat deploy 
-npx hardhat node --watch --export ./wherever/you/want/all/abis/written/in/here.json
+npx hardhat node --watch --export ./wherever/you/want/all/abis/written/in/here.json 
 npx hardhat --network kovan deploy --export ./wherever/you/want/all/abis/written/in/here.json 
